@@ -1,0 +1,137 @@
+body
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: azure;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+}
+#titre
+{
+    margin: auto;
+    font-family: lucida;
+    font-size: 30px;
+    flex: 1;
+    text-align: center;
+    color: azure;
+    text-shadow: 3px 3px 3px black;
+}
+header > div > h1:hover
+{
+    text-shadow: 6px 6px 6px black;;
+}
+nav
+{   
+    background-color: antiquewhite;
+    float: left;
+    display: block;
+    position: relative;
+    margin-top: 35px;
+    margin-left: -55px;
+    border : 2px aqua outset;
+    border-radius: 30px;
+}
+nav > h2
+{
+    margin-top:170px;
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 1px 1px 1px aqua;
+}
+nav > ol
+{
+    list-style-type: circle;
+    margin-bottom: 170px;
+}
+nav > ol > li
+{
+    
+}
+nav > ol > li > a
+{
+    text-decoration: none;
+    color: hotpink;
+}
+nav > ol > ol
+{
+    list-style-type: circle
+}
+
+nav > ol > ol > li
+{
+    margin: 10px;
+    padding: 10px
+}
+nav > ol > ol > li > a
+{
+    text-decoration: none;
+    color: hotpink;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: blueviolet;
+}
+p
+{
+    font-family: cursive;
+}
+.General
+{
+    margin-left: 300px;
+    border-left: 1px solid black;
+    background-color: cadetblue;
+    box-shadow: 5px 5px 5px aqua;
+}
+section
+{
+    text-align: justify;
+}
+.Partie2 > h2{
+    padding-left: 250px;
+    font-size: 30px;
+}
+#Part2{
+    
+    width: 1200px;
+    height: 500px;
+    text-align: justify;
+    overflow: scroll;
+    word-wrap: break-word;
+    border-radius: 20px;
+}
+#Part2 > article{
+    background-color: cadetblue
+}
+.cultur > h2{
+    text-align: center;
+    font-size: 30px;
+}
+.cultur{
+    text-align: center;
+}
+h4
+{
+    font-size: 20px;
+}
+table
+{
+    font-family: monospace;
+}
+footer{
+    background-color: darksalmon;
+}
+.listepays{
+    display: inline-flex;
+    margin: 20px;
+    font-size: 25px;
+}

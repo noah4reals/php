@@ -3,27 +3,27 @@
 <head>
 	<meta charset="utf-8">
 	<title>Page</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="Test/style.css">
 </head>
 
 <body>
 	<header>
 		<div>
     	<?php 
-			include("menu.php");
+			include("Test/menu.php");
 	      ?>	
 		</div>
 
     </header>
     
     <?php
-    	include ("milieu.php");
+    	include ("Test/milieu.php");
      ?>
 
 </body>
 <footer>
 	<?php
-    	include ("Footer.php");
+    	include ("Test/Footer.php");
      ?>
 </footer>
 </html>
